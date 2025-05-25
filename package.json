@@ -1,0 +1,20 @@
+{
+  "name": "community-platform",
+  "version": "1.0.0",
+  "description": "Community Platform",
+  "scripts": {
+    "build": "npm run build:css",
+    "build:css": "postcss css/style.css -o public/css/style.css",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+} 
